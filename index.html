@@ -3,50 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan Coman - Resume</title>
+    <title>Professional Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.3;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
             color: #333;
-            max-width: 800px;
-            margin: 0 auto;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
             padding: 20px;
-            font-size: 11px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-            font-size: 24px;
-        }
-        h2 {
-            color: #3498db;
-            margin-top: 12px;
-            margin-bottom: 4px;
-            font-size: 16px;
-        }
-        .contact-info {
-            color: #7f8c8d;
-            margin-bottom: 10px;
+        h1, h2, h3 {
+            color: #444;
         }
         .job-title {
             font-weight: bold;
+            color: #007BFF;
         }
         .company {
             font-style: italic;
         }
+        .duration, .location {
+            color: #555;
+        }
         ul {
-            margin-top: 3px;
-            margin-bottom: 8px;
+            margin: 10px 0;
             padding-left: 20px;
         }
+        ul li {
+            margin-bottom: 5px;
+        }
         .skills {
-            background-color: #f2f2f2;
-            padding: 5px;
-            border-radius: 5px;
-            margin-top: 5px;
+            margin-top: 10px;
+            font-style: italic;
+            color: #333;
+        }
+        .separator {
+            border-bottom: 1px solid #ddd;
+            margin: 20px 0;
         }
         #download-button {
             background-color: #3498db;
@@ -65,90 +67,139 @@
     <script>window.PICKAXE=window.PICKAXE||{pickaxes:[],style:"kHsjoCQGgI0GWASmgIdIA2CHA0wGQyCwBQBUiEBzQQC+EgGQwgMA3gLICDMAoAnQgvFSCsUIPQYgIHqAEw4NXUgIz6DFQ4OkwghP2AGnoMFJgKAFA8gEA4QAI9gVPBABGqBU3gAggTMBAUQ6ApYkAAgIFMxwLcKgRvlAhyyAIG8DFAoAF1QOTugMODACreB2osAqaIBABQAAGgaINAr0OASwUCiIQGBARk6AUOiAo9GAq6qAZUKAAkOAhKAAoIBDz4AAB4CkT4AR8YCSIYBygIASwoDgAoCTBoCTQIDT04B01oBj1IBDAYD1o4AWNYCmoIC29oBCM4CXl4CBgIDEU4DDN4Cyc4CnsoDReIATdoCiWYCXaoAZlIAVBYAYGoAaYoAntoD68YA3OIAb1ICIBIDZpIDEQIDBQIC3NIAgDIAIToBLxIAkBYDAAoCAFoAPLoC+L4D4GICOR4ACwIAKPIC0TICBUoBBwoAAGUAClKAQDJAIABgEi6QAYBQAoQC6JoAAykAAVGAL0BADEPgF5EQDokYBRYUAwpCACcRAFglgFxiQDPEYBIY8ATSOAAc9AONggAE2wAnioAQGcAxEqAOaFAEaCgBxHQB6RYA8kEAEPIATUAQJWADAZAAOIgDRZwCLxYA2pEABHaASmTANOAgFFPGSAGXTAIuhgEJEwDoBYAl7MACKaAURdAAYygBgmuSAELpAAAZgF8RwDnfYAy00At6CAQUFAC4JgHoSQDr9YAiYMATRqACn9AO3YgHXZQBiMIAy3sAGEiAQKhABk3AEzAADNgAA4QCBEIAyy0AcxmAPUpACi5gBcrwAYCIAE2UADzSAPBLAE2egAy9wApv4AtJMAGL2AHC5ADNZgByKwCEZIBwbEABIGAVarAJIqgE92wDEkIADwsAgkCAdIRACwGgFhMQB0YYAMxUAoX+ALIDAHYygEuBQDnM4BAQsAW86ABUFAABqgFTWQCzSIBB+0ARz+ACB7AHABgHsMwAqnIAaJMAXkPADBSpFAD3EQByTkAYevAHuzQAKEMAAi/ADypQAmEcAYxrAEmyQAbhcABFGAAAgA==="},window.PICKAXE.pickaxes.push({id:"testbot_176MX",type:"fab"});const{id:_fid}=window.PICKAXE.pickaxes[0];fetch(`https://embed.pickaxeproject.com/axe/api/script/${_fid}`).then((e=>e.json())).then((({v:e})=>{const t=`https://cdn.jsdelivr.net/gh/pickaxeproject/cdn@${e}/dist`;if(!document.querySelector(`script[src="${t}/bundle.js"]`)){const e=document.createElement("script");e.src=t+"/bundle.js",e.defer=!0,document.head.appendChild(e)}}));</script>
 </head>
 <body>
-    <h1>Dan Coman</h1>
-    <div class="contact-info">dan.coman@dutchtechlab.com</div>
+    <div class="container">
+        <h1>Professional Portfolio</h1>
 
-    <h2>Professional Summary</h2>
-    <p>With 10 years of software engineering experience, I specialize in developing and deploying complex web and mobile applications, managing serverless APIs, and creating AI-driven solutions.</p>
+        <div class="job">
+            <h2 class="job-title">Agentic Automation Solution Architect | Fullstack Software Engineer</h2>
+            <p class="company">Stealth AI Startup</p>
+            <p class="duration">Jan 2025 - Present · 1 mo</p>
+            <p class="location">London Area, United Kingdom · Remote</p>
+            <p>Partner with enterprise customers to identify high-value use cases and architect AI solutions that align with their business objectives. The goal of agentic AI is to move beyond generalized tasks and into systems capable of understanding, reasoning through, and executing on intricate logic and complex workflows.</p>
+            <p class="skills">Skills: Typescript, Python, Chainlit, AWS Multi-Agent Orchestrator, NVIDIA NIM, Kubernetes, MCP(Model Context Protocol), Cognitive Architecture</p>
+        </div>
 
-    <h2>Work Experience</h2>
-    <p><span class="job-title">Senior Full-Stack Engineer | Next.js, React Native, Cloud Solution Architecture (AWS & Azure)</span><br>
-    <span class="company">DutchTechLab, Amsterdam (Jan 2022 - Present)</span></p>
-    <ul>
-        <li>AssetPeople: Enhanced asset management with a new React Native app featuring offline capabilities, boosting operational efficiency. (Mar 2024 - Oct 2024)</li>
-        <li>umob: Integrated Bolt taxi services into a mobility app, improving user experience and service accessibility. (Oct 2023 - Feb 2024)</li>
-        <li>Prosper: Launched the MVP for a fintech startup's SIPP accounts product in the UK, facilitating market entry. (Mar 2023 - Sep 2023)</li>
-        <li>Alfen: Added new features to a technician mobile app for electric charging stations, enhancing field operations. (Dec 2022 - Feb 2023)</li>
-        <li>BP Pulse: Developed a real-time map feature for electric charging stations in the EU, improving user navigation and access. (Jun 2022 - Nov 2022)</li>
-        <li>GetKicks: Created a Move 2 Earn mobile app with cryptocurrency rewards, driving user engagement and adoption. (Jan 2022 - May 2022)</li>
-    </ul>
+        <div class="separator"></div>
 
-    <p><span class="job-title">Senior Full-Stack Engineer | Next.js, React Native, Cloud Solution Architecture (AWS & Azure)</span><br>
-    <span class="company">Intracto Group, Rotterdam (Feb 2021 - Jan 2022)</span></p>
-    <ul>
-        <li>Enhanced the Big Green Egg app with social feed and user profiles, increasing user interaction.</li>
-        <li>Developed a new gift card mobile application for Tintelingen with a digital wallet on AWS, streamlining transactions.</li>
-        <li>Contributed to white-label mobile solutions for merchants like Blokker and Albert Heijn, expanding market reach.</li>
-    </ul>
+        <div class="job">
+            <h2 class="job-title">Fullstack Software Engineer</h2>
+            <p class="company">DutchTechLab</p>
+            <p class="duration">Jan 2022 - Present · 3 yrs 1 mo</p>
+            <p class="location">Amsterdam, North Holland, Netherlands</p>
+            <ul>
+                <li><strong>AssetPeople:</strong> Developed a new web and mobile app with a focus on IBM Maximo integration, enabling seamless asset management and operational efficiency.</li>
+                <li><strong>umob:</strong> Added features for taxi, scooter, and bicycle rentals, utilizing geolocation services and push notifications for real-time updates.</li>
+                <li><strong>Prosper:</strong> Developed an MVP for a fintech startup's mobile app, featuring SIPP accounts and other fintech functionalities like KYC, multiple currency accounts, investment portfolio, and open banking.</li>
+                <li><strong>Alfen:</strong> Enhanced a technician mobile app for electric charging stations with new features, employing React Native for cross-platform development and AWS for scalable backend services.</li>
+                <li><strong>BP Pulse:</strong> Developed a real-time map feature for electric charging stations using WebSockets for live data updates and Mapbox for accurate navigation and access.</li>
+                <li><strong>GetKicks:</strong> Created a Move 2 Earn mobile app with cryptocurrency rewards, implementing blockchain integration and smart contracts for secure transactions.</li>
+            </ul>
+            <p class="skills">Skills: TypeScript, React Native, NextJS, GraphQL, Amazon Web Services (AWS), Microsoft Azure, Solution Architecture</p>
+        </div>
 
-    <p><span class="job-title">Senior Full-Stack Engineer | Next.js, React Native, Cloud Solution Architecture (AWS & Azure)</span><br>
-    <span class="company">Jongens van Techniek, Den Haag (Feb 2020 - Jan 2021)</span></p>
-    <ul>
-        <li>Created the Gametimer app with BLE hardware connectivity and AWS integration, improving user experience.</li>
-        <li>Developed a mobile app for Dutch Sheep and Goat Breeders using Azure IoT sensor data, enhancing data accuracy.</li>
-        <li>Built a B2B web platform for Flexplein with dynamic forms and a GraphQL API, streamlining business processes.</li>
-    </ul>
+        <div class="separator"></div>
 
-    <p><span class="job-title">Senior Full-Stack Engineer | Next.js, React Native, Cloud Solution Architecture (AWS & Azure)</span><br>
-    <span class="company">Vettons, Kuala Lumpur (Aug 2018 - Dec 2019)</span></p>
-    <ul>
-        <li>Led the development of an e-commerce platform with comprehensive features, boosting sales and user satisfaction.</li>
-        <li>Developed a mobile app for consumers and a web app for merchants, along with a serverless API, enhancing overall functionality.</li>
-    </ul>
+        <div class="job">
+            <h2 class="job-title">Fullstack Software Engineer</h2>
+            <p class="company">Intracto Group</p>
+            <p class="duration">Feb 2021 - Jan 2022 · 1 yr</p>
+            <p class="location">Rotterdam, South Holland, Netherlands</p>
+            <ul>
+                <li>Enhanced the Big Green Egg app with a social feed and user profiles, utilizing GraphQL for efficient data querying and real-time updates.</li>
+                <li>Developed a gift card mobile application for Tintelingen with a digital wallet on AWS, employing serverless architecture and DynamoDB.</li>
+                <li>Contributed to white-label mobile solutions for merchants like Blokker and Albert Heijn, leveraging AWS services such as Lambda, S3, and CloudFront for scalability.</li>
+            </ul>
+            <p class="skills">Skills: TypeScript, React Native, NextJS, GraphQL, Amazon Web Services (AWS), Microsoft Azure, Solution Architecture</p>
+        </div>
 
-    <p><span class="job-title">Senior Full-Stack Engineer | Next.js, React Native, Cloud Solution Architecture (AWS & Azure)</span><br>
-    <span class="company">Lizard Global, Kuala Lumpur (Jun 2016 - Jul 2018)</span></p>
-    <ul>
-        <li>Developed multiple applications, including Flexpackerz, Skoon, AirAsia, Brunott, and Tracker, driving business growth and innovation.</li>
-    </ul>
+        <div class="separator"></div>
 
-    <p><span class="job-title">Ruby on Rails Instructor</span><br>
-    <span class="company">NEXT Academy, Kuala Lumpur (Nov 2015 - Apr 2016)</span></p>
-    <ul>
-        <li>Taught web development with Ruby on Rails, empowering students to build robust web applications.</li>
-    </ul>
+        <div class="job">
+            <h2 class="job-title">Fullstack Software Engineer</h2>
+            <p class="company">Jongens van Techniek</p>
+            <p class="duration">Feb 2020 - Jan 2021 · 1 yr</p>
+            <p class="location">Den Haag, South Holland, Netherlands</p>
+            <ul>
+                <li>Created the Gametimer app with BLE hardware connectivity and AWS integration, improving user experience with real-time data.</li>
+                <li>Developed a mobile app for Dutch Sheep and Goat Breeders using Azure IoT sensor data.</li>
+                <li>Built a B2B web platform for Flexplein with dynamic forms and a GraphQL API, optimizing performance for streamlined business processes.</li>
+            </ul>
+            <p class="skills">Skills: TypeScript, React Native, NextJS, GraphQL, Amazon Web Services (AWS), Microsoft Azure, Solution Architecture</p>
+        </div>
 
-    <h2>Skills</h2>
-    <p class="skills">TypeScript, React Native, Next.js, Redux, GraphQL, Express, MongoDB, EdgeDB, Amazon Web Services (AWS), Microsoft Azure, Python, Langchain, LlamaIndex, OpenAI</p>
+        <div class="separator"></div>
 
-    <h2>Education</h2>
-    <p><strong>Master in Artificial Intelligence</strong>, University of Amsterdam (Sep 2024 - Sep 2027)</p>
-    <p><strong>Bachelor in Business Engineering: Business and Technology</strong>, Vrije Universiteit Brussel (Sep 2003 - Jul 2006)</p>
+        <div class="job">
+            <h2 class="job-title">Fullstack Software Engineer</h2>
+            <p class="company">Vettons</p>
+            <p class="duration">Aug 2018 - Jan 2020 · 1 yr 6 mos</p>
+            <p class="location">Kuala Lumpur, Malaysia</p>
+            <p>Developed a mobile app for consumers and a web app for merchants, along with an AWS AppSync API, enhancing overall functionality and scalability.</p>
+            <p class="skills">Skills: TypeScript, React Native, NextJS, GraphQL, Amazon Web Services (AWS), Solution Architecture</p>
+        </div>
 
-    <button id="download-button">Download PDF</button>
+        <div class="separator"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script>
-    document.getElementById('download-button').addEventListener('click', function() {
-        // Remove the button from the content
-        this.style.display = 'none';
+        <div class="job">
+            <h2 class="job-title">Fullstack Software Engineer</h2>
+            <p class="company">Lizard Global</p>
+            <p class="duration">Jun 2016 - Jul 2018 · 2 yrs 2 mos</p>
+            <p class="location">Kuala Lumpur, Malaysia</p>
+            <p>Developed multiple applications, including Flexpackerz, Skoon, AirAsia, Brunott, and Tracker, utilizing agile methodologies, DevOps practices, and cloud-native technologies.</p>
+            <p class="skills">Skills: TypeScript, React Native, ReactJS, NextJS, GraphQL, Express, Firebase</p>
+        </div>
 
-        // Generate PDF
-        var element = document.body;
-        var opt = {
-            margin:       [10, 10, 10, 10],
-            filename:     'dan_coman_resume.pdf',
-            image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 2 },
-            jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
-            pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
-        };
+        <div class="separator"></div>
 
-        html2pdf().set(opt).from(element).save().then(function() {
-            // Show the button again after PDF is generated
-            document.getElementById('download-button').style.display = 'block';
+        <div class="job">
+            <h2 class="job-title">Ruby on Rails Instructor</h2>
+            <p class="company">NEXT Academy - Best Full Stack Coding School in Southeast Asia</p>
+            <p class="duration">Nov 2015 - Apr 2016 · 6 mos</p>
+            <p class="location">Greater Kuala Lumpur · On-site</p>
+            <p>Taught web development with Ruby on Rails, focusing on MVC architecture, RESTful API design, and database management with ActiveRecord.</p>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="job">
+            <h2 class="job-title">Ruby on Rails Developer</h2>
+            <p class="company">Upwork</p>
+            <p class="duration">Mar 2014 - Oct 2015 · 1 yr 8 mos</p>
+            <p class="location">Brussels Region, Belgium</p>
+            <p>Developed and maintained web applications using Ruby on Rails. Implemented RESTful APIs and integrated third-party services.</p>
+        </div>
+
+        <div class="separator"></div>
+
+        <h2>Skills</h2>
+        <p class="skills">TypeScript, Python, Chainlit, AWS Multi-Agent Orchestrator, NVIDIA NIM, Kubernetes, MCP (Model Context Protocol), Cognitive Architecture, React Native, Next.js, GraphQL</p>
+
+        <h2>Education</h2>
+        <p><strong>Master in Artificial Intelligence</strong>, University of Amsterdam (Sep 2024 - Sep 2027)</p>
+        <p><strong>Bachelor in Business Engineering: Business and Technology</strong>, Vrije Universiteit Brussel (Sep 2003 - Jul 2006)</p>
+
+        <button id="download-button">Download PDF</button>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+        <script>
+        document.getElementById('download-button').addEventListener('click', function() {
+            this.style.display = 'none';
+
+            var element = document.body;
+            var opt = {
+                margin:       [10, 10, 10, 10],
+                filename:     'dan_coman_resume.pdf',
+                image:        { type: 'jpeg', quality: 0.98 },
+                html2canvas:  { scale: 2 },
+                jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
+                pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+
+            html2pdf().set(opt).from(element).save().then(function() {
+                document.getElementById('download-button').style.display = 'block';
+            });
         });
-    });
-    </script>
+        </script>
+    </div>
 </body>
 </html>
